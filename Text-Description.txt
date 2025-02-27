@@ -1,0 +1,11 @@
+Remote Compute Load Balancer​
+
+Conceptualised and written by Keir G. Godsman on the 27th of February 2025​
+
+RCLB is the idea that an application can use a remote server separate from the client machine to process redundant, taxing tasks without hurting performance of the focus client task. ​
+
+This, in theory, can allow for better optimisation of power consumption, graphical enhancement, faster execution and less input lag without computation of redundant information performed on the client. ​
+
+Examples of RCLB with respective descriptions:
+- Using RCLB in online Video-On-Demand services to upscale video without a performance penalty like stuttering or bad battery life to provide better picture quality.
+- Using RCLB in games to partially render visible but not crucial to render aspects to increase fidelity and performance where it matters. One downside can be lag when computation is sent from the server to the client but since the data isn't crucial, it's less likely to matter​.
